@@ -7,7 +7,7 @@ const io =require("socket.io")(PORT,{
 
 
 cors:{
-                         origin:"https://sociallychats.herokuapp.com/",
+                         origin:"https://profound-snickerdoodle-466102.netlify.app",
 },
 })
 
