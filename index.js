@@ -1,13 +1,15 @@
 const dotenv=require('dotenv')
-
+const cors=require('cors')
 dotenv.config()
+
+app.use(cors())
 
 const PORT= process.env.PORT
 const io =require("socket.io")(PORT,{
 
 
 cors:{
-                         origin:"https://profound-snickerdoodle-466102.netlify.app",
+                         origin:"https://sociallychats.herokuapp.com/",
 },
 })
 
