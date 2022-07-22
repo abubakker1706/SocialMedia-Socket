@@ -7,7 +7,7 @@ const io =require("socket.io")(PORT,{
 
 
 cors:{
-                         origin:process.env.ORIGIN
+                         origin:"*",
 },
 })
 
